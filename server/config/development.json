@@ -1,0 +1,16 @@
+{
+    "database" : {
+        "connectionString" : "mongodb://127.0.0.1:27017",
+        "name" : "jobs"
+    },
+
+    "server" : {
+        "port" : 3000
+    },
+
+    "jwt":{
+        "secret" : "secretitis",
+        "expiresIn": "1d"
+    }
+
+}
